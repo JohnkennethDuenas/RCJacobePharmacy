@@ -1,0 +1,57 @@
+  ion-input {
+    width: 380px;
+    margin: auto;
+  }
+  
+  .page {
+    background-image: url('../../assets/login.jpeg');
+    height: 100%;
+  }
+
+  ion-button {
+    width: 380px;
+    margin: 10px auto;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    padding: 2px;
+  }
+  ion-text {
+    margin-left: 10px;
+    
+  }
+  ion-card{
+    background-color: rgb(235, 235, 235);
+    color: rgb(0, 0, 0);
+    margin-left: 150px;
+    margin-top: 9rem;
+  }
+  .card-with-shadow {
+    box-shadow: 2 4px 10px rgba(0, 0, 0, 0.2);
+    border: 4px solid gold;
+  }
+  
+  ion-card-header {
+    font-size: 20px;
+    font-style: bold;
+    text-align: center;
+    color: black;
+    font-family: utopia semibold;
+  }
+  .login{
+    width: 10rem;
+    margin-left: 15px;
+  }
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .copyright h1{
+    font-size: 13px;
+    color: black;
+    font-family: utopia;
+  }
+  
+  

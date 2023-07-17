@@ -1,0 +1,7 @@
+{
+  "name": "Pharmacy_0",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

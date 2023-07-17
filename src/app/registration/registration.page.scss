@@ -1,0 +1,82 @@
+.page-background {
+  background-image: url(../../assets/login.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+.navbar{
+  --background: rgb(46, 85, 143); 
+}
+.back{
+  margin-left: 20px;
+  width: 10rem;
+  margin-top: 18px;
+  margin-bottom: 19px;
+  font-family: Utopia;
+  font-size: 20px;
+  text-transform: none;
+  --background: white;
+}
+
+.register {
+  margin-left: 35rem;
+  font-size: 40px;
+  margin-top: -59px;
+  margin-bottom: 9px;
+  font-family: Utopia semibold;
+  color: gold;
+}
+
+ion-input {
+    width: 450px;
+    margin-bottom: 10px;
+  }
+
+.grid-container {
+  margin-top: 20px;
+  padding: 20px;
+}
+.title{
+  color: rgb(0, 0, 0);
+  font-family: Utopia semibold;
+  font-size: 40px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+.form-container {
+  padding: 10px;
+  background-color: #e7e7e7;
+  border-radius: 9px;
+  color: rgb(0, 0, 0);
+  width: 30rem;
+  margin-left: 90px;
+  border: 4px solid gold;
+}
+
+.registration-button-container {
+  display: flex;
+  margin-top: -100px;
+  margin-left: 45rem;
+}
+.registration-button-container ion-button {
+  width: 200px;
+  font-family: utopia semibold;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  border: 3px solid gold;
+  border-radius: 9px;
+}
+.registration-button-container ion-button.reg:hover {
+  --background: gold;
+  color:white;
+  transition: 0.5s;
+  border: none;
+  
+}
+.reg{
+  --background: white;
+  height: 50px;
+  text-transform: none;
+}
+
+

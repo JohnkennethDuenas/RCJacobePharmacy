@@ -1,0 +1,44 @@
+<div class="page">
+  <ion-card class="card-with-shadow" opacity="100%">
+    <ion-card-header>LOGIN</ion-card-header>
+    <ion-input
+      label="Email"
+      label-placement="floating"
+      fill="outline"
+      placeholder="Enter your email"
+      pattern="[a-zA-Z0-9._%+-]+@gmail.com"
+      required
+    ></ion-input>
+    <br />
+    <ion-input
+      label="Password"
+      label-placement="floating"
+      fill="outline"
+      placeholder="Enter your password"
+      required
+    ></ion-input>
+    <ion-button
+      class="login"
+      (click)="SignupButton()"
+      [routerLink]="['/home']"
+      routerLinkActive="router-link-active"
+    >
+      <ion-icon name="arrow-up-outline"></ion-icon>LOGIN
+    </ion-button>
+    <ion-text>Don't have an account yet?</ion-text>
+    <ion-button
+      class="login"
+      (click)="SignupButton()"
+      [routerLink]="['/registration']"
+      routerLinkActive="router-link-active"
+    >
+      <ion-icon name="arrow-up-outline"></ion-icon>SignUp
+    </ion-button>
+  </ion-card>
+
+  <div class="container">
+    <div class="copyright">
+      <h1>Copyright © 2022 RC Jacobe. All rights reserved</h1>
+    </div>
+  </div>
+</div>

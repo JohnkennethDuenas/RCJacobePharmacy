@@ -1,0 +1,108 @@
+.card-container{
+  background-image: url(../../assets/dashboard.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  
+}
+ion-title.dashboard{
+  background-color: #5894d8;
+  height: 90px;
+  margin-left: -5px;
+}
+.home{
+  background-color: #5894d8;
+  padding: 10px;
+  height: 90px;
+  margin-left: -10px;
+  font-family: utopia semibold;
+  font-size: 30px;
+  text-transform: none;
+  color: gold;
+}
+
+.dashboard{
+  font-family: Utopia semibold;
+  font-size: 30px;
+  color: gold;
+  align-content: center;
+}
+
+.card-cointainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+ion-card {
+  background-color: #494949;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+  border: 4px solid gold;
+  border-radius: 5px;
+}
+
+.temperature-content,
+.humidity-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.temp,
+.hum {
+  font-family: Utopia;
+  font-size: 40px;
+  color: gold;
+}
+
+.temperature-value,
+.humidity-value {
+  margin-top: 35px;
+  font-size: 150px;
+  font-family: Utopia;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+/*temperature|humidity color reult*/
+.temperature-normal{
+  color: rgb(25, 255, 25);
+}
+.temperature-high {
+  color: rgb(255, 175, 27);
+}
+.temperature-very-high{
+  color: rgb(255, 33, 33);
+}
+
+.humidity-normal{
+  color: rgb(25, 255, 25);
+}
+.humidity-high{
+  color: rgb(255, 175, 27);
+}
+.humidity-very-high{
+  color: rgb(255, 33, 33);
+}
+/*temperature|humidity color reult*/
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -55px;
+}
+.copyright h1{
+  font-size: 13px;
+  color: black;
+  font-family: utopia;
+}

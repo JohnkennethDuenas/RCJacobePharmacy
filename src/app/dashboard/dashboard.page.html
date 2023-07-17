@@ -1,0 +1,45 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="custom-color">
+    <ion-buttons slot="start">
+      <ion-button class="home" (click)="goToHomePage()">
+        <ion-label>Home</ion-label>
+      </ion-button>
+    </ion-buttons>
+    <ion-title class="dashboard">Dashboard</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title>Dashboard</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content class="ion-text-center">
+    <div class="card-container">
+      <ion-card>
+        <ion-card-header>
+          <ion-card-title class="temp">Temperature</ion-card-title>
+        </ion-card-header>
+        <ion-card-content class="temperature-content">
+          <h2 class="temperature-value" [ngClass]="getTemperatureColorClass()">{{ temperature }}°C</h2>
+        </ion-card-content>
+      </ion-card>
+    
+      <ion-card>
+        <ion-card-header>
+          <ion-card-title class="hum">Humidity</ion-card-title>
+        </ion-card-header>
+        <ion-card-content class="humidity-content">
+          <h2 class="humidity-value" [ngClass]="getHumidityColorClass()">{{ humidity }}%</h2>
+        </ion-card-content>
+      </ion-card>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        <h1>Copyright © 2022 RC Jacobe. All rights reserved</h1>
+      </div>
+    </div>
+  </ion-content>

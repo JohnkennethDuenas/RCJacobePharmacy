@@ -1,0 +1,84 @@
+ion-content.page-background {
+  background-image: url(../../assets/Homepg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+ion-tab-bar.head{
+  height: 90px;
+  border: none;
+}
+ion-tab-button.nav {
+  --background: #5894d8;
+  max-width: 100%;
+  margin-left: -200px;
+  font-size: 30px;
+  font-family: utopia semibold;
+  
+   
+}
+
+ion-label.home {
+  color: gold;
+  margin-left: 25rem;
+}
+
+ion-label.temphum {
+  color: gold;
+  margin-left: -10rem;
+}
+
+ion-content {
+  --ion-background-color: transparent;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.info h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-family: utopia;
+  color: black;
+  font-size: 5rem;
+}
+
+.info h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: gold;
+  font-family: utopia semibold;
+  font-size: 52px;
+  margin-top: -12px;
+}
+
+.info p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: black;
+  width: 70%;
+  margin-top: -10px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -55px;
+}
+.copyright h1{
+  font-size: 13px;
+  color: black;
+  font-family: utopia;
+}
+
+
